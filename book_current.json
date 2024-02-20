@@ -1,0 +1,19 @@
+{
+  "title": "iOS逆向：Swift逆向",
+  "description": "整理iOS逆向期间，关于Swift逆向相关的各种知识。包括通用逻辑和各种常见类型，尤其是各种类型的内存布局。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "ios_re_swift_reverse"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/ios_re_swift_reverse/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/ios_re_swift_reverse/pdf/ios_re_swift_reverse.pdf"
+    }
+  }
+}
