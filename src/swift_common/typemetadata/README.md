@@ -12,10 +12,10 @@
 另外一种表述：
 
 * Swift中的`Metadata`
-  * `TargetMetadata`
-    * `ClassMetadata`
+  * **TargetMetadata**
+    * **ClassMetadata**
       * ==`TargetClassMetadata`
       * 适用于：**Class类**
-    * `ValueMetadata`
+    * **ValueMetadata**
       * ==`TargetValueMetadata`
       * 适用于：**非Class** == `Struct`、`Enum`、`Optional`等**Value**

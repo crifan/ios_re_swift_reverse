@@ -1,6 +1,6 @@
 {
   "title": "iOS逆向：Swift逆向",
-  "description": "整理iOS逆向期间，关于Swift逆向相关的各种知识。包括通用逻辑和各种常见类型，尤其是各种类型的内存布局。",
+  "description": "整理iOS逆向期间，关于Swift逆向相关的各种知识。最开始是Swift逆向概览；其中包括脑图；然后是Swift基础知识；接着是逆向常会涉及到的Swift常用函数；然后是Swift逆向常涉及的方面，包括静态分析和动态调试，静态分析包括导出头文件和IDA分析；然后是最终要的，通用逻辑，包括TypeMetadata、VWT、StructMetadata以及ClassMetadata，和通用的MetadataKind等；然后是常用的类型，包括Array数组和内存布局详情、Bool变量、Data数据和内存布局详情、Dictionary字典和内存布局详情、Enum枚举、Set集合和内存布局详情、String字符串和内存布局详情、Struct结构体和内存布局详情、Tuple元祖。",
   "pluginsConfig": {
     "github-buttons": {
       "buttons": [

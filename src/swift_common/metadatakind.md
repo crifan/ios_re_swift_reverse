@@ -1,6 +1,12 @@
 # MetadataKind = Metadata的type
 
-Swift中Metadata的Type的定义
+Swift中Metadata的Type == MetadataKind 的定义
+
+## 图
+
+* MetadataKind的定义 表格
+  * ![swift_metadatakind_table](../assets/img/swift_metadatakind_table.jpg)
+    * == [Swift的ValueMetadata和VWT的内存布局图](../swift_common/typemetadata/valuemetadata/README.md)中的`MetadataKind`的表格
 
 ## 核心代码
 

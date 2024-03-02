@@ -1,7 +1,9 @@
 # Swift通用逻辑
 
 * 其他
-  * ValueBuffer
+  * Protocol
+    * `PWT`=`Protocol Witness Table` = `ProtocolWitnessTable`
+    * `ValueBuffer`
   * Exitential Container?
     * Box?
   * Opaque ?

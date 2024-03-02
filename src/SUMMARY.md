@@ -31,7 +31,6 @@
         * [IDA定义](swift_common/typemetadata/classmetadata/memory_layout/ida_def.md)
         * [举例](swift_common/typemetadata/classmetadata/memory_layout/example.md)
   * [MetadataKind](swift_common/metadatakind.md)
-  * [ValueBuffer](swift_common/valuebuffer.md)
 * [常用类型](common_type/README.md)
   * [Array数组](common_type/array/README.md)
     * [内存布局](common_type/array/memory_layout/README.md)
