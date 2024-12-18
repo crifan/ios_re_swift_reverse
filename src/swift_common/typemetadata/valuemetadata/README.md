@@ -22,6 +22,8 @@
     * TargetMetadata
       * StoredPointer Kind
         * the kind. Only valid for non-class metadata; getKind() must be used to get the kind value
+        * 详见
+          * [MetadataKind](../../../swift_common/metadatakind.md)
     * TargetValueMetadata
       * TargetSignedPointer* Description
         * An out-of-line description of the type

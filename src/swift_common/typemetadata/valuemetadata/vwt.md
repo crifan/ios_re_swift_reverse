@@ -23,9 +23,10 @@
 
 #### 图
 
-详见：
-
-[ValueMetadata](../valuemetadata/README.md)
+* 概述
+  * ![swift_vwt](../../../assets/img/swift_vwt.jpg)
+* 详见
+  * [ValueMetadata](../valuemetadata/README.md)
 
 ### 加入到IDA中的定义
 
@@ -52,16 +53,17 @@ struct __cppobj ValueWitnessTable
 * enum `TargetValueWitnessFlags`
 
 ```c
-000000FF ; enum TargetValueWitnessFlags, mappedto_10385, bitfield, width 4 bytes
-000000FF AlignmentMask    EQU 0xFF
-00010000 IsNonPOD         EQU 0x10000
-00020000 IsNonInline      EQU 0x20000
-00080000 HasSpareBits     EQU 0x80000
-00100000 IsNonBitwiseTakable  EQU 0x100000
-00200000 HasEnumWitnesses  EQU 0x200000
-00400000 Incomplete       EQU 0x400000
-00800000 IsNonCopyable    EQU 0x800000
-00800000
+enum TargetValueWitnessFlags : __int32
+{
+  AlignmentMask = 0xFF,
+  IsNonPOD = 0x10000,
+  IsNonInline = 0x20000,
+  HasSpareBits = 0x80000,
+  IsNonBitwiseTakable = 0x100000,
+  HasEnumWitnesses = 0x200000,
+  Incomplete = 0x400000,
+  IsNonCopyable = 0x800000,
+};
 ```
 
 ## 详解

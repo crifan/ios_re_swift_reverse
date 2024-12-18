@@ -14,9 +14,14 @@
 
 * Swift中的`Metadata`
   * **TargetMetadata**
-    * **ClassMetadata**
-      * ==`TargetClassMetadata`
-      * 适用于：**Class类**
-    * **ValueMetadata**
+    * `0 < kind < 0x7FF` 是 **ValueMetadata**
       * ==`TargetValueMetadata`
       * 适用于：**非Class** == `Struct`、`Enum`、`Optional`等**Value**
+      * 举例
+        * `kind == 0x200` 是 `Struct`
+        * `kind == 0x201` 是 `Enum`
+        * `kind == 0x202` 是 `Optional`
+        * `kind == 0x301` 是 `Tuple`
+    * `kind == 0` 或 `kind > 0x7FF`(==`ObjC`中的`isa`) 是 **ClassMetadata**
+      * ==`TargetClassMetadata`
+      * 适用于：**Class类**
