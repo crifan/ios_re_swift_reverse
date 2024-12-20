@@ -41,6 +41,7 @@
 * 【未解决】iOS逆向Swift：__SwiftNativeNSSet
 * 【已解决】iOS逆向Swift：给IDA中加上Set集合的结构体定义SwiftSet
 * 【已解决】iOS逆向Swift：Set中的偏移量0x38是什么值
+* 【已解决】iOS逆向Swift：Swift中有几种Metadata
 * 
 * [初探Swift底层Metadata - 掘金](https://juejin.cn/post/6919034854159941645)
 * [swift-evolution/proposals/0247-contiguous-strings.md at main · apple/swift-evolution (github.com)](https://github.com/apple/swift-evolution/blob/main/proposals/0247-contiguous-strings.md)

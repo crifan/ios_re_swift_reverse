@@ -1,4 +1,4 @@
-# kind=0x201的EnumMetadata
+# EnumMetadata
 
 * Swift的EnumMetadata的内存布局
   * [-0x08] = ValueWitnessTable* vwt;
