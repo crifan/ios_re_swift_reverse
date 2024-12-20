@@ -91,11 +91,11 @@ struct SwiftString
 ```c
 struct SwiftArray
 {
-  void *metadata;
+  void *heapMetadata;
   __int64 refCount;
   __int64 count;
   __int64 _capacityAndFlags;
-  void *firstElement;
+  void* firstElement;
 };
 ```
 
