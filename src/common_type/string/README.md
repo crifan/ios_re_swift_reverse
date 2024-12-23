@@ -13,25 +13,30 @@
   * `Large String`
     * 三类
       * `Native`
-        * 真正地址
+        * 查看字符串
           ```bash
-          realStrAddr = objectAddr + 0x20
-                      = objectAddr + 32
-                      = objectAddr + nativeBias
+          x/s "objectAddr + 0x20"
           ```
+        * 真正地址
+          * `realStrAddr`
+            * = `objectAddr` + `0x20`
+            * = `objectAddr` + `32`
+            * = `objectAddr` + `nativeBias`
       * `Shared`
-        * 真正地址
+        * 查看字符串
           ```bash
-          realStrAddr = objectAddr
+          x/s "objectAddr + 0x11"
+          
+          po (NSString*)objectAddr
           ```
+        * 真正地址
+          * `realStrAddr` = `objectAddr` + `0x11`
         * 说明
           * 对于Bridge的字符串：objectAddr == NSString的地址
             * 内存布局保存的数据，是NSString中的数据
       * `Foreign`
         * 真正地址
-          ```bash
-          realStrAddr = objectAddr
-          ```
+          * `realStrAddr` = `objectAddr`
 
 ### 详解
 
